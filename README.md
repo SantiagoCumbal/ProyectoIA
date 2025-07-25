@@ -3,6 +3,7 @@ Desarrollar un sistema interactivo tipo chatbot que permita predecir el precio a
 
 ### Integrantes: 
 > Edwin Sarango
+---
 > Santiago Cumbal
 ## Objetivos
 1. Facilitar la estimación de precios para dispositivos tecnológicos de forma rápida, intuitiva y automatizada.
@@ -17,7 +18,8 @@ Desarrollar un sistema interactivo tipo chatbot que permita predecir el precio a
 Este proyecto es un **chatbot interactivo** que permite predecir el precio estimado de **celulares** y **computadoras** según las especificaciones proporcionadas por el usuario. Utiliza un flujo conversacional paso a paso, procesamiento de texto y modelos de predicción (basados en reglas o machine learning).
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
+```
 📂 proyectoIA/
 ├── index.html # Interfaz principal del chatbot
 ├── styles.css # Estilos del chatbot
@@ -26,7 +28,7 @@ Este proyecto es un **chatbot interactivo** que permite predecir el precio estim
 │ └── conversational.js# Lógica del flujo conversacional
 ├── app/
 │ └── (Flask API - opcional si usas ML backend)
-
+```
 ---
 ### 1. `index.html`
 - Contiene la estructura visual del chatbot.
@@ -79,7 +81,7 @@ Cuando se completan todas las preguntas, se muestra una predicción del precio e
 
 ---
 
-## 🔘 Funcionalidades Adicionales
+## Funcionalidades Adicionales
 
 - `switchMode(mode)`: Cambia entre modo celulares y computadoras.
 - `sendMessage()`: Envía el mensaje y procesa la lógica del paso siguiente.
@@ -88,7 +90,7 @@ Cuando se completan todas las preguntas, se muestra una predicción del precio e
 
 ---
 
-## 🚀 ¿Cómo comenzar?
+## ¿Cómo comenzar?
 
 1. Abre `index.html` en tu navegador.
 2. Selecciona el modo: **Celulares** o **Computadoras**.
@@ -96,7 +98,7 @@ Cuando se completan todas las preguntas, se muestra una predicción del precio e
 4. Recibe una predicción del precio y un resumen técnico.
 
 ---
-## 📸 Vista previa
+## Vista previa
 
 ![demo] <img width="1917" height="979" alt="image" src="https://github.com/user-attachments/assets/aa9dd9c6-8871-4fc9-87ac-276a723e8142" />
 
