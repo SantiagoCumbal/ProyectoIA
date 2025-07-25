@@ -2,9 +2,8 @@
 Desarrollar un sistema interactivo tipo chatbot que permita predecir el precio aproximado de celulares y computadoras a partir de las características técnicas proporcionadas por el usuario.
 
 ### Integrantes: 
-> Edwin Sarango
----
-> Santiago Cumbal
+> Edwin Sarango,
+> Santiago Cumbal.
 ## Objetivos
 1. Facilitar la estimación de precios para dispositivos tecnológicos de forma rápida, intuitiva y automatizada.
 2. Guiar al usuario paso a paso mediante un flujo conversacional que recolecta las especificaciones técnicas clave del equipo.
@@ -57,7 +56,7 @@ Este proyecto es un **chatbot interactivo** que permite predecir el precio estim
 - Guarda respuestas en `conversationState`.
 - Al completar todas las preguntas, llama al predictor y muestra el resultado.
 
-## 💬 Flujo Conversacional
+## Flujo Conversacional
 
 El chatbot sigue un flujo guiado:
 
@@ -116,7 +115,9 @@ flask-cors
 
 ## Conclusiones 
 El desarrollo de este proyecto demuestra cómo un chatbot puede ser una herramienta eficiente y amigable para asistir a los usuarios en la recolección progresiva de datos, reemplazando formularios tradicionales por una experiencia conversacional más natural. A través de la integración de modelos de predicción basados en Machine Learning (para computadoras) y lógica basada en reglas (para celulares), se logró automatizar la estimación de precios tecnológicos en función de especificaciones técnicas clave como marca, memoria RAM, almacenamiento, pantalla y cámara.
+
 El sistema fue diseñado con una arquitectura clara que separa el frontend (interfaz en HTML, CSS y JavaScript) del backend (CVS y PYs entrenados), lo que facilita la escalabilidad, mantenimiento y mejora continua del modelo predictivo. La implementación de un flujo conversacional paso a paso mejora la precisión en la recolección de datos, ya que guía al usuario de manera secuencial a través de las características necesarias para la predicción.
+
 Además, el proyecto demostró la posibilidad de adaptar el mismo flujo a distintos tipos de dispositivos (como celulares y computadoras), haciendo el sistema flexible y extensible. Finalmente, se concluye que la combinación de tecnologías web con inteligencia artificial aplicada ofrece una solución robusta y práctica para resolver problemas del mundo real, como la estimación de precios, en tiempo real y desde una interfaz accesible para cualquier usuario.
 
 
