@@ -102,14 +102,14 @@ Cuando se completan todas las preguntas, se muestra una predicción del precio e
 ![demo] <img width="1917" height="979" alt="image" src="https://github.com/user-attachments/assets/aa9dd9c6-8871-4fc9-87ac-276a723e8142" />
 
 ---
-Requerimentos básicos para AI TechAsistor:
+Requerimentos básicos para AI Tech Predictor:
 ```
-flask
+flask (opcional con servidor)
 scikit-learn
 pandas
 numpy
 joblib
-flask-cors
+flask-cors (adicional de flask) 
 ```
 
 
